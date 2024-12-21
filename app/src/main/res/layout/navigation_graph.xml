@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categorySelectionFragment">
+
+    <fragment
+        android:id="@+id/categorySelectionFragment"
+        android:name="com.example.questapp.fragment.CategorySelectionFragment"
+        android:label="CategorySelectionFragment">
+        <action
+            android:id="@+id/action_categorySelection_to_quiz"
+            app:destination="@id/quizFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.questapp.fragment.QuizFragment"
+        android:label="QuizFragment">
+        <action
+            android:id="@+id/action_quiz_to_score"
+            app:destination="@id/scoreFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.example.questapp.fragment.ScoreFragment"
+        android:label="ScoreFragment">
+        <action
+            android:id="@+id/action_score_to_categorySelection"
+            app:destination="@id/categorySelectionFragment"
+            app:popUpTo="@id/categorySelectionFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_score_to_history"
+            app:destination="@id/quizHistoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizHistoryFragment"
+        android:name="com.example.questapp.fragment.QuizHistoryFragment"
+        android:label="QuizHistoryFragment" />
+</navigation>
