@@ -34,7 +34,7 @@ class QuestionAdapter(
         private val questionText: TextView = itemView.findViewById(R.id.question_text)
         private val optionsGroup: RadioGroup = itemView.findViewById(R.id.options_group)
         private val submitButton: Button = itemView.findViewById(R.id.submit_button)
-        val blackColor = ContextCompat.getColor(itemView.context, R.color.black)
+        private val blackColor = ContextCompat.getColor(itemView.context, R.color.black)
         fun bind(question: Question, position: Int) {
             questionText.text = question.question
             optionsGroup.removeAllViews()
