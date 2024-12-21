@@ -1,7 +1,7 @@
 **Quiziq** is a quiz app to test your knowledge about different subjects
 
-![Untitled](https://github.com/user-attachments/assets/eba06a58-e64d-4b80-95ef-0eb19e6d56b1)  ![Untitled](https://github.com/user-attachments/assets/e86f5b3b-4078-40b4-903e-922f1a7be1fd)  ![Untitled](https://github.com/user-attachments/assets/e79a4a2e-8765-4bba-a4be-1b55ff622948)
-
+![Untitled](https://github.com/user-attachments/assets/eba06a58-e64d-4b80-95ef-0eb19e6d56b1)  ![Untitled](https://github.com/user-attachments/assets/e86f5b3b-4078-40b4-903e-922f1a7be1fd) ![Untitled](https://github.com/user-attachments/assets/cd2ea0b5-2d28-44eb-b1a5-6da66ebf55d9)
+  ![Untitled](https://github.com/user-attachments/assets/e79a4a2e-8765-4bba-a4be-1b55ff622948)
 
 
 
