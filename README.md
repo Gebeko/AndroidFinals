@@ -1,6 +1,7 @@
-**Quiziq** is an quiz app to test your knowledge from about different subjects
+**Quiziq** is a quiz app to test your knowledge about different subjects
 
-![Untitled](https://github.com/user-attachments/assets/eba06a58-e64d-4b80-95ef-0eb19e6d56b1)
+![Untitled](https://github.com/user-attachments/assets/eba06a58-e64d-4b80-95ef-0eb19e6d56b1)  ![Untitled](https://github.com/user-attachments/assets/e86f5b3b-4078-40b4-903e-922f1a7be1fd) 
+
 
 
 **Trivia API** The Open Trivia Database provides a completely free JSON API for use in programming projects. Use of this API does not require a API Key, just generate the URL below use it in your own application to retrieve trivia questions. 
